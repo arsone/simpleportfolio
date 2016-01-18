@@ -1,0 +1,12 @@
+body {
+	background-color: gray;
+}
+
+.row {
+	background-color: white;
+}
+
+a.th {
+	border: none;
+	box-shadow: none;
+}
