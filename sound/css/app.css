@@ -57,6 +57,11 @@ li span {
 	color: #797979;
 }
 
+
+li a:hover {
+	color: #CFCFCF;
+}
+
 #social {
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
