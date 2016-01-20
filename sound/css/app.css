@@ -108,6 +108,15 @@ li span {
 	height: 100%;
 }
 
+.reveal.large img {
+	max-width: 100%;
+}
+
+.close-button {
+	color: #fff;
+}
+
+
 table {
   background: whitesmoke;
   margin-bottom: 1.25rem;
