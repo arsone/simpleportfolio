@@ -37,6 +37,12 @@ ul {
 	padding-bottom: 2em;
 }
 
+.large-5 img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
 /*.caption {
 	line-height: 0;
 	text-align: left;
