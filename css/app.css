@@ -52,6 +52,14 @@ a:hover {
 	display: inline;
 }
 
+#social a {
+	color: #CFCFCF;
+}
+
+#social a:hover {
+	color: #2199e8;
+}
+
 #title {
 	text-align: center;
 	padding-bottom: 0rem;
