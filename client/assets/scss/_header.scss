@@ -1,0 +1,19 @@
+#social {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	line-height: 2em;
+	li {
+		display: inline;
+	}
+	a {
+		color: #CFCFCF;
+		&:hover {
+			color: #2199e8;
+		}
+	}
+}
+
+#title {
+	text-align: center;
+	padding-bottom: 0rem;
+}
