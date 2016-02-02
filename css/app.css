@@ -51,6 +51,11 @@ h1 {
 /*.center {
 	margin-left: 5%;
 	margin-right: 5%;
+
+/*.large-5 img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 }*/
 
 .top-bar, .top-bar ul {
@@ -75,6 +80,14 @@ a:hover {
 	display: inline;
 }
 
+#social a {
+	color: #CFCFCF;
+}
+
+#social a:hover {
+	color: #2199e8;
+}
+
 #title {
 	text-align: center;
 	padding-bottom: 0rem;
@@ -96,7 +109,7 @@ a:hover {
 
 /* photography */
 
-.item {
+.item, .photo {
 	padding-bottom: 2rem;
 }
 
@@ -106,6 +119,20 @@ a:hover {
 
 .toggle {
 	display: none;
+}
+
+.lowres img {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+/* sound design */
+
+#social ul {
+	margin: 0;
+	-webkit-padding-start:0;
+
 }
 
 .embed-container {
