@@ -90,8 +90,8 @@
 // $font-weight-bold: bold;
 
 // We use these to control various global styles
-// $body-background: #fff;
-// $body-font-color: #222;
+$body-background: #1F1F1F;
+$body-font-color: #CFCFCF;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 // $body-font-weight: $font-weight-normal;
 // $body-font-style: normal;
@@ -233,7 +233,7 @@ $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 // 5. Grid
 // - - - - - - - - - - - - - - -
 
-// $container-width: rem-calc(900);
+$container-width: rem-calc(1024);
 // $block-padding: $global-padding;
 // $total-columns: 12;
 // $block-grid-max-size: 6; 
@@ -321,11 +321,11 @@ $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 // 11. Card
 // - - - - - - - - - - - - - - -
 
-// $card-background: #fff;
-// $card-color: isitlight($card-background);
-// $card-border: 1px solid smartscale($card-background, 7%);
-// $card-radius: $global-radius;
-// $card-shadow: 0 1px 2px rgba(#000, 0.2);
+$card-background: $body-background;
+$card-color: $body-font-color;
+$card-border: 0px;
+$card-radius: 0;
+$card-shadow: 0;
 // $card-padding: $global-padding;
 // $card-margin: 0.5rem;
 
@@ -426,11 +426,11 @@ $anchor-font-color-hover: scale-color($anchor-font-color, $lightness: -14%);
 // - - - - - - - - - - - - - - -
 
 // $menubar-fontsize: 1rem;
-// $menubar-background: #fff;
+$menubar-background: $body-background;
 // $menubar-background-hover: smartscale($menubar-background, 7%);
 // $menubar-background-active: $menubar-background-hover;
-// $menubar-color: isitlight($menubar-background);
-// $menubar-color-hover: $menubar-color;
+$menubar-color: $body-font-color;
+$menubar-color-hover: scale-color($body-font-color, $lightness: -14%);;
 // $menubar-color-active: $menubar-color-hover;
 
 // $menubar-item-padding: $global-padding;
