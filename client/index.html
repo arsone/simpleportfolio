@@ -20,22 +20,30 @@
 
   </head>
   <body>
-    <div class="grid-frame">
-      <div class="grid-block vertical">
-
-        <div class="shrink collapse grid-content">
-          <ul class="menu-bar">
-            <li class="menu-text"><a ui-sref="home">adamsalberg.com</a></li>
+    <div class="grid-frame vertical">
+      <div class="grid-content shrink">
+          <ul class="condense menu-bar">
+            <li><a ui-sref="home"><strong>adamsalberg.com</strong></a></li>
             <li><a ui-sref="photo">photography</a></li>
             <li><a ui-sref="sound">sound design</a></li>
             <li><a href="https://www.youtube.com/watch?v=enutOy-nsZk" target="_blank">bob ross</a></li>
           </ul>
         </div>
 
-        <div ng-include="" src="'/partials/home.html'"></div>
+        <div class="grid-content">
+          <div class="grid-container">
+            <base href="/"/>
+            <div ng-class="['ui-animation']" ui-view></div>
+          </div>
+        </div>
 
-      </div>
-    </div>
+        <div class="grid-content">
+          <div class="grid-container">
+            <p class="text-center">© 2016 all rights reserved.</p>
+          </div>
+        </div>
+
+      </div><!-- close grid-frame -->
 
 <!-- <script src="js/vendor/jquery.min.js"></script>
 <script src="js/vendor/what-input.min.js"></script>
