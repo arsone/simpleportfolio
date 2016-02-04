@@ -1,0 +1,20 @@
+[
+	{
+		"job_id": "001",
+		"employer_name": "iDE",
+		"begin_date": "2/15",
+		"end_date": "Present",
+		"job_title": "Consultant/Disaster Response Coordinator",
+		"location": "Kathmandu, Nepal",
+		"description": "Developing grant proposals for international donors including USAID, DFID, the European Commission", "Project design and scoping", "Training local staff", "Developing disaster readiness and response protocols"
+	},
+	{
+		"job_id": "002",
+		"employer_name": "Theatre [various]",
+		"begin_date": "5/10",
+		"end_date": "Present",
+		"job_title": "Sound Designer/Engineer/Teacher",
+		"location": "New York, etc.",
+		"description": "Multiple off-broadway and regional design credits", "Visiting artist and honorary member of the Yale Dramatic Association", "For more info, visit adamsalberg.com/sound"
+	}
+]
