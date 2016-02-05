@@ -1,20 +1,133 @@
-[
-	{
-		"job_id": "001",
-		"employer_name": "iDE",
-		"begin_date": "2/15",
-		"end_date": "Present",
-		"job_title": "Consultant/Disaster Response Coordinator",
-		"location": "Kathmandu, Nepal",
-		"description": "Developing grant proposals for international donors including USAID, DFID, the European Commission", "Project design and scoping", "Training local staff", "Developing disaster readiness and response protocols"
-	},
-	{
-		"job_id": "002",
-		"employer_name": "Theatre [various]",
-		"begin_date": "5/10",
-		"end_date": "Present",
-		"job_title": "Sound Designer/Engineer/Teacher",
-		"location": "New York, etc.",
-		"description": "Multiple off-broadway and regional design credits", "Visiting artist and honorary member of the Yale Dramatic Association", "For more info, visit adamsalberg.com/sound"
-	}
-]
+{
+  "job": {
+    "id": {"001"},
+    "employer": {"Hillary Clinton for President"},
+    "title": {"Field Organizer"},
+    "start_date": {"12/08"},
+    "end_date": {"1/09"},
+    "location": {"Las Vegas, NV"},
+    "description": [
+    	"Conducted voter registration and outreach", 
+    	"Successfully recruited multiple precinct captains for 2008 Nevada State Democratic Caucus"
+    ]
+  },
+  "job": {
+    "id": {"002"},
+    "employer": {"Clinton Global Initiative (CGI)"},
+    "title": {"Research Intern/Consultant"},
+    "start_date": {"1/09"},
+    "end_date": {"5/09"},
+    "location": {"New York, NY"},
+    "description": [
+    	"Prepared briefings and talking points for the office of former President Clinton", 
+    	"Drafted strategic memos for executive review", 
+    	"Performed research for best practice case studies, marketing, membership recruitment"
+    ]
+  },
+  "job": {
+    "id": {"003"},
+    "employer": {"Eric Gioia for Public Advocate"},
+    "title": {"Director of New Media"},
+    "start_date": {"4/09"},
+    "end_date": {"9/09"},
+    "location": {"New York, NY"},
+    "description": [
+	    "Created content to disseminate candidate's message via Internet and social networks", 
+	    "Engineered doubling of candidate's online base, led field in online supporters (Twitter/Facebook, PageRank)", 
+	    "Helped bring in record-setting $2 million+ in campaign contributions"
+    ]
+  },
+  "job": {
+    "id": {"004"},
+    "employer": {"Barnes & Noble"},
+    "title": {"Consultant"},
+    "start_date": {"10/10"},
+    "end_date": {"1/11"},
+    "location": {"New York, NY"},
+    "description": [
+	    "Pre-release Nook Color tablet development team", 
+	    "Designed and programmed interactive children's e-books", 
+	    "Beta testing of device UI/UX"
+    ]
+  },
+  "job": {
+    "id": {"005"},
+    "employer": {"Gramercy Consultants"},
+    "title": {"Associate"},
+    "start_date": {"9/10"},
+    "end_date": {"4/11"},
+    "location": {"New York, NY"},
+    "description": [
+    	"Designed apps for Android and iOS, created marketing packages for clients", 
+    	"Coordinated work across multiple departments, ensured timely delivery of products"
+    ]
+  },
+  "job": {
+    "id": {"006"},
+    "employer": {"WomensTrust MFI"},
+    "title": {"Analyst/Consultant"},
+    "start_date": {"12/11"},
+    "end_date": {"3/12"},
+    "location": {"Accra, Ghana"},
+    "description": [
+	    "Performed research and analysis on microfinance loan portfolio and market, drafted proposals for new programs",
+	    "Designed modules for Monitoring and Evaluation",
+	    "Provided database management and architecture"
+    ]
+  },
+  "job": {
+    "id": {"007"},
+    "employer": {"New York Cares"},
+    "title": {"Disaster Response Project Manager"},
+    "start_date": {"1/13"},
+    "end_date": {"4/13"},
+    "location": {"New York, NY"},
+    "description": [
+    	"Developed high-impact volunteer opportunities to assist with Hurricane Sandy disaster relief",
+    	"Drafted protocols for identifying, recruiting, and training new volunteer leadership",
+    	"Managed day-to-day needs for ongoing field operations"
+    ]
+  },
+  "job": {
+    "id": {"008"},
+    "employer": {"Gramercy Consultants"},
+    "title": {"Manager"},
+    "start_date": {"4/13"},
+    "end_date": {"12/13"},
+    "location": {"New York, NY"},
+    "description": [
+    	"Developing new areas for business growth",
+    	"Drafting proposals and cost projections for potential clients",
+    	"Project management for evolving portfolio of iOS, Android, and web apps"
+    ]
+  },
+  "job": {
+    "id": {"009"},
+    "employer": {"Theatre [various]"},
+    "title": {"Sound Designer/Engineer/Educator"},
+    "start_date": {"5/10"},
+    "end_date": {"Present"},
+    "location": {"New York, etc."},
+    "description": [
+    	"Multiple off-broadway and regional design credits",
+    	"Visiting artist and honorary member of the Yale Dramatic Association",
+    	"For more info, visit adamsalberg.com/sound"
+    ]
+  },
+  "job": {
+    "id": {"010"},
+    "employer": {"iDE"},
+    "title": {"Consultant/Disaster Response Coordinator"},
+    "start_date": {"2/15"},
+    "end_date": {"Present"},
+    "location": {"Kathmandu, Nepal"},
+    "description": [
+    	"Developing grant proposals for international donors including USAID, DFID, the European Commission",
+    	"Project design and scoping",
+    	"Training local staff",
+    	"Developing disaster readiness and response protocols",
+    	"Leading disaster response effort",
+    	"Coordinating with multiple foreign and domestic teams, engaging with UN Cluster Groups"
+    ]
+  }
+}
