@@ -21,8 +21,8 @@
     $urlProvider.otherwise('/');
 
     $locationProvider.html5Mode({
-      enabled:false,
-      requireBase: false
+      enabled:true,
+      requireBase: true
     });
 
     $locationProvider.hashPrefix('!');
