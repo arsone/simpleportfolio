@@ -13,9 +13,9 @@ h1 {
 	line-height: 1em;
 }
 
-// .top-bar, .top-bar ul {
-// 	background-color: #1F1F1F;
-// }
+.menu-bar {
+	padding: 0 0 3rem 0;
+}
 
 li span {
 	color: #797979;
@@ -35,4 +35,58 @@ a:hover {
 
 .expanded {
 	display: inherit !important;
+}
+
+// table 
+
+table {
+  background: whitesmoke;
+  margin-bottom: 1.25rem;
+  border: solid 1px #dddddd;
+  }
+  table thead,
+  table tfoot {
+    background: #78797A !important; }
+    table thead tr th,
+    table thead tr td,
+    table tfoot tr th,
+    table tfoot tr td {
+      padding: 0.5rem 0.625rem 0.625rem;
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: #222222;
+      text-align: left; }
+  table tr th,
+  table tr td {
+    padding: 0.5625rem 0.625rem;
+    font-size: 0.875rem;
+    color: #222222; }
+  table tr.even, table tr.alt, table tr:nth-of-type(even) {
+    background: #6F727A; 
+	}
+  table tr:nth-of-type(even) td {
+  	color: #C3C3C7;
+  	}
+  table tr:nth-of-type(even) a:hover {
+  	color: #CFCFCF;
+  }
+  table thead tr th,
+  table tfoot tr th,
+  table tbody tr td,
+  table tr td,
+  table tfoot tr td {
+    display: table-cell;
+    line-height: 1.125rem; }
+  table a:hover {
+  	color: #222222;
+  }
+  /* table tbody tr:hover {
+   	background-color: #2D2D2E;
+   }
+   table tbody tr:hover td {
+   	color: white;
+   }*/
+
+table.scroll {
+	display: table;
 }
