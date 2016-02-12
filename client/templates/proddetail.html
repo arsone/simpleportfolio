@@ -16,10 +16,12 @@ animationOut: fadeOut
   	</div>
 
   	<p class="text-right"><a ui-sref="home">back to main</a></p>
-  	<h1 class="text-center">Title</h1>
   	<div class="grid-block">
 	  	<div class="grid-container align-center">
-	  		<img src="./assets/img/placeholder.jpg">
+	  		<div class="prod-image">
+	  			<img src="http://adamsalberg.com/photo/nyc/img/img27.jpg">
+	  			<h1 class="text-center prod-title"><span>Title</span></h1>
+	  		</div>
 	  	</div>
 	</div>
   	<hr>
@@ -45,14 +47,14 @@ animationOut: fadeOut
     </div>
 
     <div class="card">
-    	<img src="./assets/img/placeholder.jpg">
+    	<img src="http://adamsalberg.com/photo/nyc/img/img18.jpg">
     	<div class="card-divider">
     		[image description]
     	</div>
     </div>
     <br>
     <div class="card">
-    	<img src="./assets/img/placeholder.jpg">
+    	<img src="http://adamsalberg.com/photo/nyc/img/img16.jpg">
     	<div class="card-divider">
     		[image description]
     	</div>
@@ -95,11 +97,15 @@ animationOut: fadeOut
     	</div>
     </div>
     <hr>
-    <h3>some more images</h3>
+    <h3>some more images <small>(hint: click the images to enlarge!)</small></h3>
     <div class="grid-block small-up-1 medium-up-3">
     	<div class="grid-content">
     		<div class="card">
-    			<img src="./assets/img/placeholder.jpg">
+    			<a zf-open="imgModal1"><img src="http://adamsalberg.com/photo/cute/img/img31.jpg"></a>
+    			<div zf-modal="" id="imgModal1">
+    				<a cf-close="" class="close-button">x</a>
+    				<img src="http://adamsalberg.com/photo/cute/img/img31.jpg">
+    			</div>
     			<div class="card-divider">
     				image descriptions can be <a href="#">links!</a>
     			</div>
@@ -107,7 +113,11 @@ animationOut: fadeOut
     	</div>
     	<div class="grid-content">
     		<div class="card">
-    			<img src="./assets/img/placeholder.jpg">
+    			<a zf-open="imgModal2"><img src="http://adamsalberg.com/photo/cute/img/img34.jpg"></a>
+    			<div zf-modal="" id="imgModal2">
+    				<a cf-close="" class="close-button">x</a>
+    				<img src="http://adamsalberg.com/photo/cute/img/img34.jpg">
+    			</div>
     			<div class="card-divider">
     				image description
     			</div>
@@ -115,7 +125,11 @@ animationOut: fadeOut
     	</div>
     	<div class="grid-content">
     		<div class="card">
-    			<img src="./assets/img/placeholder.jpg">
+    			<a zf-open="imgModal3"><img src="http://adamsalberg.com/photo/cute/img/img30.jpg"></a>
+    			<div zf-modal="" id="imgModal3">
+    				<a cf-close="" class="close-button">x</a>
+    				<img src="http://adamsalberg.com/photo/cute/img/img30.jpg">
+    			</div>
     			<div class="card-divider">
     				image description
     			</div>
