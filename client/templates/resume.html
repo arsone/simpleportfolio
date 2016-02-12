@@ -26,7 +26,14 @@ animationOut: fadeOut
   	<div ng-include="" src="'partials/title.html'"></div>
   		<div class="grid-block align-center">
 	  		<div id="headshot" class="small-12 medium-2 grid-content shrink">
-	  			<img src="https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg">
+	  			<a zf-open="imgModal"><img src="https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg"></a>
+	  			<div class="collapse" zf-modal="" id="imgModal">
+	  				<div class="grid-block align-center vertical">
+	  					<div class="grid-content padding" style="padding-top:1rem;">
+    						<p><img src="https://upload.wikimedia.org/wikipedia/en/8/86/Einstein_tongue.jpg"></p>
+    					</div>
+    				</div>
+    			</div>
 	  			<p>[headshot optional]</p>
 	  		</div>
 	  		<div id="bio" class="small-12 medium-10 grid-content">
