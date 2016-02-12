@@ -100,10 +100,10 @@ $body-font-color: #CFCFCF;
 // Application Colors
 $primary-color: #2199e8;
 // $secondary-color: #f1f1f1;
-// $alert-color: #F04124;
+$alert-color: #CC2B00;
 // $info-color: #A0D3E8;
-// $success-color: #43AC6A;
-// $warning-color: #F08A24;
+$success-color: $primary-color;
+$warning-color: #FF9600;
 // $dark-color: #232323;
 // $gray: #dfdfdf;
 // $gray-dark: darken($gray, 8);

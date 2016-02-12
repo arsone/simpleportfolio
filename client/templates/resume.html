@@ -9,7 +9,20 @@ animationOut: fadeOut
 <div class="grid-block vertical align-center">
   <div class="grid-content">
 
-  	<!-- TODO: Fix title partial -->
+  	<div class="card success">
+	  		<div class="card-section">
+				this is a resumé page. by default it includes three sections: <strong>bio</strong>, <strong>work experience</strong>, and <strong>education</strong>. you can create an unlimited number of additional sections using one of three types:
+					<ul>
+						<li><strong>text</strong> - for block text, like describing a unique accomplishment.</li>
+						<li><strong>list</strong> - for listing things, like skills or awards</li>
+						<li><strong>html</strong> - for embedding iframes (like youtube or soundcloud), or for custom injecting your own code</li>
+					</ul>
+					<br>
+				the sections can be ordered any way you want.
+			</div>
+		</div>
+
+
   	<div ng-include="" src="'partials/title.html'"></div>
   	<div id="intro">
         <p>[enter bio here]</p>
@@ -18,11 +31,10 @@ animationOut: fadeOut
     <hr>
 
     <section>
-      <h2>Work Experience</h2>
       <h2><strong>Work Experience</strong></h2>
 		<p>[list your relevant work experience here]</p>
-		<h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+		<h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>The north and south winds met where the house stood, and made it the exact center of the cyclone</li>
 			<li>  In the middle of a cyclone the air is generally still, but the great pressure of the wind on every side of the house raised it up higher and higher, until it was at the very top of the cyclone; and there it remained and was carried miles and miles away as easily as you could carry a feather</li>
@@ -31,16 +43,16 @@ animationOut: fadeOut
 			<li> Toto did not like it</li>
 		</ul>
 
-		<h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+		<h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>Alice was rather doubtful whether she ought not to lie down on her face  like the three gardeners, but she could not remember ever having heard  of such a rule at processions; 'and besides, what would be the use of  a procession,' thought she, 'if people had all to lie down upon their  faces, so that they couldn't see it?' So she stood still where she was,  and waited</li>
 			<li> When the procession came opposite to Alice, they all stopped and looked  at her, and the Queen said severely 'Who is this?' She said it to the  Knave of Hearts, who only bowed and smiled in reply</li>
 			<li> 'Idiot!' said the Queen, tossing her head impatiently; and, turning to  Alice, she went on, 'What's your name, child?' 'My name is Alice, so please your Majesty,' said Alice very politely;  but she added, to herself, 'Why, they're only a pack of cards, after  all</li>
 		</ul>
 
-		<h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+		<h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>The train had started punctually</li>
 			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
@@ -51,55 +63,51 @@ animationOut: fadeOut
 
 		<div class="toggle" id="moreWork" data-toggler=".expanded">
 
-	    <h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>The train had started punctually</li>
 			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
 		</ul>
 
-	    <h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>The train had started punctually</li>
 			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
 		</ul>
 
-	    <h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>The train had started punctually</li>
 			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
 		</ul>
 
-	    <h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>The train had started punctually</li>
 			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
 		</ul>
 
-	    <h3><strong>{{Employer}}</strong> <small>{{Dates Employed}}</small></h3>
-		<h4>{{Title}} • {{Location}}</h4>
+	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
 		<ul>
 			<li>The train had started punctually</li>
 			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
 		</ul>
 
     	<p><a data-toggle="moreWork">less</a></p>
+    </div>
+    <hr>
   	</section>
 
 	<section> <!-- Education -->
 		<h2><strong>Education</strong></h2>
-		<h3>{{School Name}}</h3>
-		<p>{{Degree Title}}</p>
+		<h3>[School Name]</h3>
+		<p>[Degree Title]</p>
 		<hr>
-
-		<div class="card warning">
-	  		<div class="card-section">
-				<p>[after work experience and education, each section can be one of two types: a <strong>list</strong> or a <strong>text</strong> section. below are examples of each. you can add inifinity sections (but maybe don't?). There's also an <strong>html</strong> type section, for the technically advanced or if you want to embed iframes]</p>
-			</div>
-		</div>
 	</section>
 
 	<section>
