@@ -26,6 +26,19 @@
   </head>
   <body>
 
+    <!-- off-canvas menu for mobile -->
+    <zf-panel id="mobile-menu" position="left">
+      <a href="#" zf-close="" class="close-button">x</a>
+      <ul class="menu-bar condense vertical">
+        <li><a ui-sref="home"><strong>yourname.come</strong></a></li>
+        <li><a ui-sref="production detail">production detail</a></li>
+        <li><a ui-sref="photo">galleries</a></li>
+        <li><a ui-sref="photo album">photo album</a></li>
+        <li><a ui-sref="resume">resumé</a></li>
+        <li><a href="https://www.youtube.com/watch?v=enutOy-nsZk" target="_blank">bob ross</a></li>
+      </ul>
+    </zf-panel>
+
     <div class="grid-frame vertical">
       <div class="grid-content shrink">
           <ul class="menu-bar">
@@ -35,22 +48,9 @@
             <li class="hide-for-small-only"><a ui-sref="photo album">photo album</a></li>
             <li class="hide-for-small-only"><a ui-sref="resume">resumé</a></li>
             <li class="hide-for-small-only"><a href="https://www.youtube.com/watch?v=enutOy-nsZk" target="_blank">bob ross</a></li>
-            <li class="show-for-small-only"><a zf-toggle="mobile-menu">menu</a></li>
+            <li class="show-for-small-only"><a zf-toggle="mobile-menu"><i class="fi-list medium"></i></a></li>
           </ul>
         </div>
-
-        <!-- off-canvas menu for mobile -->
-        <zf-panel id="mobile-menu" position="left">
-          <ul class="menu-bar condense vertical">
-            <li><a ui-sref="home"><strong>yourname.come</strong></a></li>
-            <li><a ui-sref="production detail">production detail</a></li>
-            <li><a ui-sref="photo">galleries</a></li>
-            <li><a ui-sref="photo album">photo album</a></li>
-            <li><a ui-sref="resume">resumé</a></li>
-            <li><a href="https://www.youtube.com/watch?v=enutOy-nsZk" target="_blank">bob ross</a></li>
-          </ul>
-        </zf-panel>
-
 
         <div class="grid-content">
           <div class="grid-container">
