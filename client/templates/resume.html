@@ -72,16 +72,11 @@ animationOut: fadeOut
 		</ul>
 
 		<!-- toggle additional work experience -->
-	    <p><a data-toggle="moreWork">more</a> [keep additional employment history hidden]</p>
+	    <p><a zf-toggle="moreWork">more</a> [keep additional employment history hidden]</p>
 
-		<div class="toggle" id="moreWork" data-toggler=".expanded">
-
-	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
-		<h4>[Title] • [Location]</h4>
-		<ul>
-			<li>The train had started punctually</li>
-			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
-		</ul>
+		<div zf-panel="" class="panel-fixed align-center work-panel" id="moreWork" position="bottom">
+			<div class="small-12 medium-10 grid-content">
+			<a href="#" zf-close="" class="close-button">x</a>
 
 	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
 		<h4>[Title] • [Location]</h4>
@@ -111,7 +106,15 @@ animationOut: fadeOut
 			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
 		</ul>
 
-    	<p><a data-toggle="moreWork">less</a></p>
+	    <h3><strong>[Employer]</strong> <small>[Dates Employed]</small></h3>
+		<h4>[Title] • [Location]</h4>
+		<ul>
+			<li>The train had started punctually</li>
+			<li>  Among the passengers were a number of officers, Government officials, and opium and indigo merchants, whose business called them to the eastern coast</li>
+		</ul>
+
+    	<p><a zf-toggle="moreWork">less</a></p>
+    </div>
     </div>
     <hr>
   	</section>

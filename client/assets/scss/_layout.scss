@@ -37,6 +37,15 @@ a:hover {
 	display: inherit !important;
 }
 
+.work-panel {
+  background-color: #CFCFCF;
+  color: #1F1F1F;
+  h1, h2, h3, h4, h5, h6, p {
+    color: #1F1F1F;
+  }
+}
+
+
 .prod-image {
   position: relative;
   width: 100%;
