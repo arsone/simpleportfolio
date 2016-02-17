@@ -45,6 +45,17 @@ a:hover {
   }
 }
 
+.neutral-card {
+  @include card-container($background: #FFF, $color: #1F1F1F);
+}
+
+.neutral-card-divider {
+  @include card-divider($background: #CFCFCF);
+}
+
+.neutral-card-section{
+  @include card-section();
+}
 
 .prod-image {
   position: relative;
