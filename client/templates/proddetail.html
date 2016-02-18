@@ -16,25 +16,12 @@ animationOut: fadeOut
   	</div>
 
   	<p class="text-right"><a ui-sref="home">back to main</a></p>
-  	<div class="grid-block">
-	  	<div class="grid-container align-center">
-	  		<div class="prod-image">
-	  			<img src="http://adamsalberg.com/photo/nyc/img/img27.jpg">
-	  			<h1 class="text-center prod-title"><span>Title</span></h1>
-	  		</div>
-	  	</div>
-	</div>
+  	<div ng-include="" src="'partials/mainimg.html'"></div>
   	<hr>
   	<div class="card success">
   		<div class="card-section">[who else worked on it? don't hog the glory - add your collaborators here. link to their websites if they have one.]</div>
   	</div>
-  	<ul class="no-bullet text-center">
-  		<li>[Role]: [Name]</li>
-  		<li>[Role]: <a href="#">[Name]</a></li>
-  		<li>[Role]: [Name]</li>
-  		<li>[Role]: [Name]</li>
-  		<li>[Role]: [Name]</li>
-  	</ul>
+    <div ng-include="" src="'partials/collablist.html'"></div>
   	<hr>
 
     <p>[enter brief description here]</p>
@@ -60,82 +47,9 @@ animationOut: fadeOut
     	</div>
     </div>
     <hr>
-    <h3>audio files</h3>
-    <div class="grid-block small-up-1 medium-up-3">
-    	<div class="grid-content">
-    		<div class="card">
-    			<audio controls preload="none">
-    				<source src="" type="audio/mpeg">
-    				<embed height="50" width="100" src="">
-    			</audio>
-	    		<div class="card-divider">
-	    			that song i wrote
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="grid-content">
-    		<div class="card">
-    			<audio controls preload="none">
-    				<source src="" type="audio/mpeg">
-    				<embed height="50" width="100" src="">
-    			</audio>
-	    		<div class="card-divider">
-	    			that guitar riff i riffed
-	    		</div>
-    		</div>
-    	</div>
-    	<div class="grid-content">
-    		<div class="card">
-    			<audio controls preload="none">
-    				<source src="" type="audio/mpeg">
-    				<embed height="50" width="100" src="">
-    			</audio>
-	    		<div class="card-divider">
-	    			that cue from that thing
-	    		</div>
-    		</div>
-    	</div>
-    </div>
+    <div ng-include="" src="'partials/audiosec.html'"></div>
     <hr>
-    <h3>some more images <small>(hint: click the images to enlarge!)</small></h3>
-    <div class="grid-block small-up-1 medium-up-3">
-    	<div class="grid-content">
-    		<div class="card">
-    			<a zf-open="imgModal1"><img src="http://adamsalberg.com/photo/cute/img/img31.jpg"></a>
-    			<div zf-modal="" id="imgModal1">
-    				<a cf-close="" class="close-button">x</a>
-    				<img src="http://adamsalberg.com/photo/cute/img/img31.jpg">
-    			</div>
-    			<div class="card-divider">
-    				image descriptions can be <a href="#">links!</a>
-    			</div>
-    		</div>
-    	</div>
-    	<div class="grid-content">
-    		<div class="card">
-    			<a zf-open="imgModal2"><img src="http://adamsalberg.com/photo/cute/img/img34.jpg"></a>
-    			<div zf-modal="" id="imgModal2">
-    				<a cf-close="" class="close-button">x</a>
-    				<img src="http://adamsalberg.com/photo/cute/img/img34.jpg">
-    			</div>
-    			<div class="card-divider">
-    				image description
-    			</div>
-    		</div>
-    	</div>
-    	<div class="grid-content">
-    		<div class="card">
-    			<a zf-open="imgModal3"><img src="http://adamsalberg.com/photo/cute/img/img30.jpg"></a>
-    			<div zf-modal="" id="imgModal3">
-    				<a cf-close="" class="close-button">x</a>
-    				<img src="http://adamsalberg.com/photo/cute/img/img30.jpg">
-    			</div>
-    			<div class="card-divider">
-    				image description
-    			</div>
-    		</div>
-    	</div>
-    </div>
+    <div ng-include="" src="'partials/addlimg.html'"></div>
     <hr>
     <h3>make a list</h3>
     <ul>
