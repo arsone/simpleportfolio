@@ -12,7 +12,7 @@ animationOut: fadeOut
 		<div class="small-12 grid-container align-center">
 			<div class="neutral-card">
 				<div class="neutral-card-section">
-					<h5>free space remaining: <small>100MB</small></h5>
+					<h5>disk space remaining: <small>100MB</small></h5>
 					<meter max="1.0" min="0.0" value="0.75" high="0.6" low="0.0" title="Storage Use"></meter>
 				</div>
 				<div class="neutral-card-divider">
@@ -23,21 +23,51 @@ animationOut: fadeOut
 						<section class="block-list">
 							<header>panel</header>
 							<ul>
-								<li><a href="#">edit current pages</a></li>
-								<li><a href="#">add new page</a></li>
-								<li><a href="#">global settings</a></li>
-								<li><a zf-open="walkthruModal">easy setup</a></li>
+								<li><a href="#">edit current pages</a></a></li>
+								<li><a href="#">add new page</a></a></li>
+								<li><a href="#">global settings</a></a></li>
+								<li><a zf-open="walkthruModal">easy setup</a></a></li>
 							</ul>
 						</section>
 					</div>
 					<div class="grid-content">
 						<h3>your pages</h3>
 						<ul class="no-bullet">
-							<li>home</li>
-							<li>galleries</li>
-							<li>resumé</li>
+							<li><a href="#">home</a></li>
+							<li><a href="#">galleries</a>
+							<ul>
+								<li><a href="#">gallery 1</a></li>
+								<li><a href="#">gallery 2</a></li>
+								<li><a href="#">gallery 3</a></li>
+							</ul></li>
+							<li>works
+							<ul>
+								<li><a href="#">work 1</a></li>
+								<li><a href="#">work 2</a></li>
+								<li><a href="#">work 3</a></li>
+								<li><a href="#">work 4</a></li>
+								<li><a href="#">work 5</a></li>
+							</ul></li>
+							<li><a href="#">resumé</a></li>
 						</ul>
-						<h3>upload images</h3>
+						<hr>
+						<h3>bits and bobs</h3>
+						<h5>select font</h5>
+						<select>
+							<option value="Raleway">Raleway</option>
+							<option value="Open Sans">Open Sans</option>
+							<option value="Helvetica Neue">Helvetica Neue</option>
+							<option value="Comic Sans" disabled>Comic Sans</option>
+						</select>
+						<h5>select a font color</h5>
+						<form>
+							<input type="color" name="fontcolor" value="#CFCFCF">
+						</form>
+						<h5>select a background color</h5>
+						<form>
+							<input type="color" name="bgcolor" value="#1F1F1F">
+						</form>
+						<h5>upload images</h5>
 						<form>
 							<input type="file" name="file" accept="image/*, .mp3" multiple>
 							<input type="submit">
