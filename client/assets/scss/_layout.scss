@@ -55,6 +55,9 @@ a:hover {
 
 .neutral-card-section{
   @include card-section();
+  small {
+    color: #1F1F1F;
+  }
 }
 
 .prod-image {
