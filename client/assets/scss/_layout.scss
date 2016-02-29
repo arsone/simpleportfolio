@@ -1,40 +1,40 @@
 body {
-	background: #1F1F1F;
-	color: #CFCFCF;
-	font-family: 'Abel', sans-serif;
-	line-height: 1em;
+  background: #1F1F1F;
+  color: #CFCFCF;
+  font-family: 'Abel', sans-serif;
+  line-height: 1em;
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 h1 {
-	line-height: 1em;
+  line-height: 1em;
 }
 
 .menu-bar {
-	padding: 0 0 1.5rem 0;
+  padding: 0 0 1.5rem 0;
 }
 
 li span {
-	color: #797979;
+  color: #797979;
 }
 
 a:hover {
-	color: #CFCFCF;
+  color: #CFCFCF;
 }
 
 .troggle {
-	display: inherit !important;
+  display: inherit !important;
 }
 
 .toggle {
-	display: none;
+  display: none;
 }
 
 .expanded {
-	display: inherit !important;
+  display: inherit !important;
 }
 
 .work-panel {
@@ -102,12 +102,12 @@ table {
     color: #222222; }
   table tr.even, table tr.alt, table tr:nth-of-type(even) {
     background: #6F727A; 
-	}
+  }
   table tr:nth-of-type(even) td {
-  	color: #C3C3C7;
-  	}
+    color: #C3C3C7;
+    }
   table tr:nth-of-type(even) a:hover {
-  	color: #CFCFCF;
+    color: #CFCFCF;
   }
   table thead tr th,
   table tfoot tr th,
@@ -117,15 +117,15 @@ table {
     display: table-cell;
     line-height: 1.125rem; }
   table a:hover {
-  	color: #222222;
+    color: #222222;
   }
   /* table tbody tr:hover {
-   	background-color: #2D2D2E;
+    background-color: #2D2D2E;
    }
    table tbody tr:hover td {
-   	color: white;
+    color: white;
    }*/
 
 table.scroll {
-	display: table;
+  display: table;
 }
