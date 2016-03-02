@@ -68,11 +68,11 @@ animationOut: fadeOut
 							<option value="Comic Sans" disabled>Comic Sans</option>
 						</select>
 						<h5>select a font color</h5>
-						<color-picker ng-model="color"></color-picker>
+						<color-picker ng-model="fontColor"></color-picker>
+						<input type="text" ng-model="fontColor" ng-init="fontColor = '#00FFF'">
 						<h5>select a background color</h5>
-						<form>
-							<input type="color" name="bgcolor" value="#1F1F1F">
-						</form>
+						<color-picker ng-model="bgColor"></color-picker>
+						<input type="text" ng-model="bgColor" ng-init="bgColor = '#1F1F1F'">
 						<h5>upload images</h5>
 						<form>
 							<input type="file" name="file" accept="image/*, .mp3" multiple>
