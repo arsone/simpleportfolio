@@ -2,10 +2,12 @@
 @import "foundation";
 @import "layout";
 @import "header";
+@import "videogular";
+@import "angular-color-picker";
 
-$font-path: "../fonts/foundation-icons/foundation-icons";
+$font-path: "../fonts/foundation-icons/foundation-icons", "../fonts/videogular-fonts/videogular";
 @font-face {
-  font-family: "foundation-icons";
+  font-family: "foundation-icons", "videogular";
   src: url("#{$font-path}.eot");
   src: url("#{$font-path}.eot?#iefix") format("embedded-opentype"),
        url("#{$font-path}.woff") format("woff"),
@@ -16,3 +18,4 @@ $font-path: "../fonts/foundation-icons/foundation-icons";
 };
 
 @import "../fonts/foundation-icons/foundation-icons.css";
+@import "../fonts/videogular-fonts/videogular.css";

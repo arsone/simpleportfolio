@@ -27,7 +27,9 @@ var paths = {
   // Sass will check these folders for files when you use @import.
   sass: [
     'client/assets/scss',
-    'bower_components/foundation-apps/scss'
+    'bower_components/foundation-apps/scss',
+    'node_modules/videogular-themes-default',
+    'node_modules/angular-color-picker'
   ],
   // These files include Foundation for Apps and its dependencies
   foundationJS: [
@@ -43,7 +45,8 @@ var paths = {
     'bower_components/foundation-apps/js/angular/**/*.js',
     '!bower_components/foundation-apps/js/angular/app.js',
     'node_modules/videogular/videogular.js',
-    'node_modules/videogular-controls/vg-controls.js'
+    'node_modules/videogular-controls/vg-controls.js',
+    'node_modules/angular-color-picker/angular-color-picker.js'
   ],
   // These files are for your app's JavaScript
   appJS: [

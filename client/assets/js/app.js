@@ -13,7 +13,11 @@
     //videogular integration
     'ngSanitize',
     'com.2fdevs.videogular',
-    'com.2fdevs.videogular.plugins.controls'
+    'com.2fdevs.videogular.plugins.controls',
+
+    //angular color picker
+    'mp.colorPicker'
+
   ])
 
     .controller('MediaCtrl',
@@ -22,9 +26,7 @@
           sources: [
             {src: $sce.trustAsResourceUrl("https://s3.amazonaws.com/adamsalberg.com/portfoliodemo/assets/thrills_loop.mp3"), type: "audio/mpeg"}
           ],
-          theme: {
-            url: "http://www.videogular.com/styles/themes/default/latest/videogular.css"
-          }
+          theme: "node_modules/videogular-themes-default/videogular.css"
         };
       }]
     )

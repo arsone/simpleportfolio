@@ -12,8 +12,13 @@ animationOut: fadeOut
 		<div class="small-12 grid-container align-center">
 			<div class="neutral-card">
 				<div class="neutral-card-section">
-					<h5>disk space remaining: <small>100MB</small></h5>
-					<meter max="1.0" min="0.0" value="0.75" high="0.6" low="0.0" title="Storage Use"></meter>
+					<div class="small-6">
+						<h4>basic account <small><a href="#">upgrade to pro</a></small></h4>
+						<h5>galleries: 4/6</h5>
+						<meter max="6.0" min="0.0" value="4.0" high="5.0" low="0.0" title="Galleries Used"></meter>
+						<h5>work pages: 7/10</h5>
+						<meter max="10.0" min="0.0" value="7.0" high="6.9" low="0.0" title="pages used"></meter>
+					</div>
 				</div>
 				<div class="neutral-card-divider">
 					<h1 class="text-center">Settings</h1>
@@ -39,6 +44,7 @@ animationOut: fadeOut
 								<li><a href="#">gallery 1</a></li>
 								<li><a href="#">gallery 2</a></li>
 								<li><a href="#">gallery 3</a></li>
+								<li><a href="#">gallery 4</a></li>
 							</ul></li>
 							<li>works
 							<ul>
@@ -47,6 +53,8 @@ animationOut: fadeOut
 								<li><a href="#">work 3</a></li>
 								<li><a href="#">work 4</a></li>
 								<li><a href="#">work 5</a></li>
+								<li><a href="#">work 6</a></li>
+								<li><a href="#">work 7</a></li>
 							</ul></li>
 							<li><a href="#">resumé</a></li>
 						</ul>
@@ -60,9 +68,7 @@ animationOut: fadeOut
 							<option value="Comic Sans" disabled>Comic Sans</option>
 						</select>
 						<h5>select a font color</h5>
-						<form>
-							<input type="color" name="fontcolor" value="#CFCFCF">
-						</form>
+						<color-picker ng-model="color"></color-picker>
 						<h5>select a background color</h5>
 						<form>
 							<input type="color" name="bgcolor" value="#1F1F1F">
