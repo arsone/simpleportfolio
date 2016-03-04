@@ -1,0 +1,44 @@
+$flexvideo-margin-bottom: rem-calc(16) !default;
+$flexvideo-ratio: 4 by 3 !default;
+$flexvideo-ratio-widescreen: 16 by 9 !default;
+
+@function flex-video($ratio) {
+  $w: nth($ratio, 1);
+  $h: nth($ratio, 3);
+  @return $h / $w * 100%;
+}
+
+@mixin flex-video($ratio: $flexvideo-ratio) {
+  position: relative;
+  height: 0;
+  padding-bottom: flex-video($ratio);
+  margin-bottom: $flexvideo-margin-bottom;
+  overflow: hidden;
+
+  iframe,
+  object,
+  embed,
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@mixin foundation-flex-video {
+  .flex-video {
+    @include flex-video;
+
+    &.widescreen {
+      padding-bottom: flex-video($flexvideo-ratio-widescreen);
+    }
+
+    &.vimeo {
+      padding-top: 0;
+    }
+  }
+}
+
+@include foundation-flex-video;
