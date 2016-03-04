@@ -44,6 +44,8 @@ var paths = {
     'bower_components/foundation-apps/js/vendor/**/*.js',
     'bower_components/foundation-apps/js/angular/**/*.js',
     '!bower_components/foundation-apps/js/angular/app.js',
+    'node_modules/ng-file-upload/ng-file-upload-shim.js',
+    'node_modules/ng-file-upload/ng-file-upload.js',
     'node_modules/videogular/videogular.js',
     'node_modules/videogular-controls/vg-controls.js',
     'node_modules/angular-color-picker/angular-color-picker.js'
